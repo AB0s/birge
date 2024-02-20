@@ -39,7 +39,7 @@ const ProfilePage = async ({ searchParams }: SearchParamProps) => {
           data={orderedEvents}
           emptyTitle="Оқиға билеттері әлі сатып алынған жоқ"
           emptyStateSubtext="Уайымдамаңыз - көптеген қызықты оқиғалар бар!"
-          collectionType="Менің_билеттерім"
+          collectionType="My_Tickets"
           limit={3}
           page={ordersPage}
           urlParamName="ordersPage"
